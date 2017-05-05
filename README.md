@@ -1,4 +1,4 @@
-*## Slug Imobiliária
+# Slug Imobiliária
 Sistema web de imobiliária
 ## Fluxo das páginas
 * Login 
