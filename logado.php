@@ -1,6 +1,8 @@
 <?php
-
-echo "
+    /*Just for your server-side code*/
+    header('Content-Type: text/html; charset=utf-8');
+?>
+<?
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,7 +47,7 @@ echo "
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Slug Imóveis</a>
+                <a class="navbar-brand" href="index.php">Slug Imóveis</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -73,7 +75,7 @@ echo "
                     <small>Acesso restrito</small>
                 </h1>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="index.php">Home</a>
                     </li>
                     <li class="active">Logado</li>
                 </ol>
@@ -86,9 +88,9 @@ echo "
             <!-- Sidebar Column -->
             <div class="col-md-3">
                 <div class="list-group">
-                    <a href="index.html" class="list-group-item">Home</a>
-                    <a href="services.html" class="list-group-item">Services</a>
-                    <a href="contact.html" class="list-group-item">Contact</a>
+                    <a href="index.php" class="list-group-item">Home</a>
+                    <a href="services.php" class="list-group-item">Services</a>
+                    <a href="contact.php" class="list-group-item">Contact</a>
                 </div>
             </div>
             <!-- Content Column -->
@@ -120,5 +122,5 @@ echo "
 
 </body>
 
-</html>"
+</html>
 ?>

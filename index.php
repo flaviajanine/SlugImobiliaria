@@ -1,7 +1,8 @@
 <?php
-
-echo "
-
+    /*Just for your server-side code*/
+    header('Content-Type: text/html; charset=utf-8');
+?>
+<?
 <!DOCTYPE html>
 
 <head>
@@ -47,13 +48,13 @@ echo "
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Slug Imóveis</a>
+                <a class="navbar-brand" href="index.php">Slug Imóveis</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="login.html" >Login</a>
+                        <a href="login.php" >Login</a>
     <!--<div class="login">
       <div class="arrow-up"></div>
       <div class="formholder">
@@ -230,6 +231,6 @@ echo "
 
 </body>
 
-</html>";
+</html>
 
 ?>

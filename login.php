@@ -1,10 +1,10 @@
 <?php
-
-echo "
+    /*Just for your server-side code*/
+    header('Content-Type: text/html; charset=utf-8');
+?>
+<?
 
 <!DOCTYPE html>
-<html lang="en">
-
 <head>
 
     <meta charset="utf-8">
@@ -47,19 +47,17 @@ echo "
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Slug Imóveis</a>
+                <a class="navbar-brand" href="index.php">Slug Imóveis</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                    
                     <li>
-                        <a href="about.html">Login</a>
+                        <a href="services.php">Serviços</a>
                     </li>
                     <li>
-                        <a href="services.html">Serviços</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contato</a>
+                        <a href="contact.php">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -76,7 +74,7 @@ echo "
             <div class="col-lg-12">
                 <h1 class="page-header">Login</h1>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="index.php">Home</a>
                     </li>
                     <li class="active">Login</li>
                 </ol>
@@ -88,7 +86,7 @@ echo "
         <div class="row">
             <div class="col-lg-12 text-center">
            
-                <form action="conexaodb.php">
+                <form method="GET" action="conexaodb.php">
                 
                     
                         <label><b>Usuário</b></label>     
@@ -130,6 +128,5 @@ echo "
 </body>
 
 </html>
-"
 
 ?>

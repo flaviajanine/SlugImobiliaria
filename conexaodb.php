@@ -1,18 +1,16 @@
 <?php
 
 	$host="localhost";
-	$user="admin";
-	$pass="admin";
-	$dbname="id1245507_slug";
+	$user="";
+	$pass="";
+	$dbname="test";
 			
 
 	$conexao=mysql_connect($host,$user,$pass);
 	$selectdb=mysql_select_db($dbname);
 
-
-
-	$user = $obj["uname"];
-    $pwd = $obj["psw"];
+	$user = $GET["uname"];
+    $pwd = $GET["psw"];
 
     $sql = "SELECT * FROM `imobiliaria`.`usuarios` WHERE (nome = '".$user."') AND (senha = '".$pwd."')";
 
