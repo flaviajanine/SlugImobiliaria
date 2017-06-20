@@ -2,8 +2,8 @@
 
 	$host="localhost";
 	$user="";
-	$pass="";
-	$dbname="test";
+	$pass="admin";
+	$dbname="id1245507_slug";
 			
 
 	$conexao=mysql_connect($host,$user,$pass);

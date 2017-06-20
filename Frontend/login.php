@@ -93,7 +93,7 @@
                         <input type="text" placeholder="User" name="uname" required> <br> <br>    
                             <label><b>Senha</b></label>     
                             <input type="password" placeholder="Senha" name="psw" required>
-                            <br><br>  <button type="submit">Login</button> <br>     
+                            <br><br>  <button type="submit">Login</button><br>     
                             <input type="checkbox" checked="checked">Lembrar minha senha   
                                        <br> <br> 
                         <button type="button" class="cancelbtn">Cancelar</button>    
@@ -128,5 +128,3 @@
 </body>
 
 </html>
-
-?>

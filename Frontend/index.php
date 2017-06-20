@@ -78,6 +78,9 @@
                     <li>
                         <a href="contact.php">Contato</a>
                     </li>
+                     <li>
+                        <a href="cadastro.php">Cadastro</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
