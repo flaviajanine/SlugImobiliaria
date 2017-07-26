@@ -72,10 +72,10 @@ switch ($categoria) {
 		echo "Inquilino Cadastrado com Sucesso !";
 		break;
 
-	case 'proprietario':
-		cadastrar_proprietario($obj,$link);
-		echo "Proprietario Cadastrado com Sucesso !";
-		break;
+	#	case 'proprietario':
+		#cadastrar_proprietario($obj,$link);
+		#echo "Proprietario Cadastrado com Sucesso !";
+		#break;
 
 	default:
 		echo "Categoria Invalida";
